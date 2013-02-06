@@ -1,0 +1,17 @@
+This is a proposal for directory layout:
+
+
+ * software
+  - *.exe|*.zip|*.xpi
+ * kmeleon
+ * web
+  * css
+   - *.css
+  * images
+   - *.png|*.jpg
+  * *.html
+ * autorun.inf
+ * tarantasio.ico
+ * start.ini
+ * start.exe
+
