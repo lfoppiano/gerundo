@@ -1,0 +1,6 @@
+= Project's tasks =
+
+ 1. XML --> oggetto e oggetto --> XML
+ 2. Oggetto --> [wiki:treeDir albero directory]
+ 3. Oggetto --> CSS+XHTML
+ 4. Frontend grafico

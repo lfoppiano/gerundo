@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0046)http://trac.assembla.com/gerundo/wiki/template -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+      template – gerundo
+    </title>
+    
+    <!--[if IE]><script type="text/javascript">window.location.hash = window.location.hash;</script><![endif]-->
+        <link rel="search" href="http://trac.assembla.com/gerundo/search">
+        <link rel="help" href="http://trac.assembla.com/gerundo/wiki/TracGuide">
+        <link rel="alternate" href="http://trac.assembla.com/gerundo/wiki/template?format=txt" type="text/x-trac-wiki" title="Plain Text">
+        <link rel="start" href="http://trac.assembla.com/gerundo/wiki">
+        <link rel="stylesheet" href="./template – gerundo_files/trac.css" type="text/css"><link rel="stylesheet" href="./template – gerundo_files/wiki.css" type="text/css">
+        <link rel="shortcut icon" href="http://trac.assembla.com/gerundo/chrome/common/trac.ico" type="image/x-icon">
+        <link rel="icon" href="http://trac.assembla.com/gerundo/chrome/common/trac.ico" type="image/x-icon">
+      <link type="application/opensearchdescription+xml" rel="search" href="http://trac.assembla.com/gerundo/search/opensearch" title="Search gerundo">
+    <script type="text/javascript" src="./template – gerundo_files/jquery.js"></script><script type="text/javascript" src="./template – gerundo_files/babel.js"></script><script type="text/javascript" src="./template – gerundo_files/trac.js"></script><script type="text/javascript" src="./template – gerundo_files/search.js"></script><script type="text/javascript" src="./template – gerundo_files/folding.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/gerundo/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor(_("Link to this section"));
+        $("#content").find(".wikianchor").each(function() {
+          $(this).addAnchor(babel.format(_("Link to #%(id)s"), {id: $(this).attr('id')}));
+        });
+        $(".foldable").enableFolding(true, true);
+      });
+    </script>
+    <style type="text/css">
+/* ---------------------------------------------------
+=col
+------------------------------------------------------ */
+/* span one col */
+.col {
+        /* avoid rounding errors */
+        width: 40%;
+        float: left;
+        padding: .375em  .375em .5em .375em;
+}
+.user-col {
+        float: right;
+        text-align: right;
+}
+.col a:link,
+.col a:visited {
+        color: #E3EFFC;
+        border-bottom: 1px solid #E3EFFC;
+}
+.col a:hover {
+        border-bottom: none;
+        background: transparent;
+}
+/* ---------------------------------------------------
+=header
+------------------------------------------------------ */
+#top-bar-w {
+        margin-left:-10px;
+        margin-right:-10px;
+        padding-left:10px;
+        padding-right:10px;
+        background: #2E4B73;
+        color: #5375A6;
+        font-family: Verdana, sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: normal;
+        font-variant: normal;
+        width:100%;
+}
+/* ---------------------------------------------------
+=utilities
+----------------------------------------------------- */
+.cut {clear: both; height: 1px; overflow: hidden;}
+.hidden { display: none;}
+.inline { display: inline; }
+.clear-float  {
+        /* clear floated children */
+        overflow: hidden;
+        /* IE fix see:
+        http://www.positioniseverything.net/easyclearing.html
+        */
+        _height: 1%;
+}
+    </style>
+  <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script></head><style type="text/css"></style>
+  <body>
+    <div id="siteheader">
+      <div id="top-bar-w">
+	<div class="col">
+	  <a href="http://www.assembla.com/"><b>Assembla home</b></a> | <a href="http://www.assembla.com/spaces/show/gerundo">Assembla project page</a>
+	</div>
+	<div class="col user-col">
+	  <div id="user-box">
+            <a href="http://www.assembla.com/user/start" rel="nofollow">My Start Page</a>
+            <!-- /user-box -->
+	  </div>
+	</div>
+	<!-- clear float, the old skool way -->
+	<div class="cut">&nbsp;</div>
+	<!-- /top-bar-w -->
+      </div>
+    </div>
+    <div id="banner">
+      <div id="header">
+        <h1><a href="http://www.assembla.com/spaces/show/gerundo">gerundo</a></h1>
+      </div>
+      <form id="search" action="http://trac.assembla.com/gerundo/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="">
+          <input type="submit" value="Search">
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://trac.assembla.com/gerundo/login">Login</a></li><li><a href="http://trac.assembla.com/gerundo/prefs">Preferences</a></li><li><a href="http://trac.assembla.com/gerundo/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="http://trac.assembla.com/gerundo/about">About Trac</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="http://trac.assembla.com/gerundo/wiki">Wiki</a></li><li><a href="http://trac.assembla.com/gerundo/timeline">Timeline</a></li><li><a href="http://trac.assembla.com/gerundo/roadmap">Roadmap</a></li><li><a href="http://trac.assembla.com/gerundo/browser">Browse Source</a></li><li><a href="http://trac.assembla.com/gerundo/report">View Tickets</a></li><li class="last"><a href="http://trac.assembla.com/gerundo/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="pagepath" class="noprint">
+  <a class="pathentry first" title="View WikiStart" href="http://trac.assembla.com/gerundo/wiki">wiki:</a><a class="pathentry" href="./template – gerundo_files/template – gerundo.html" title="View template">template</a>
+</div>
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><a href="http://trac.assembla.com/gerundo/wiki/WikiStart">Start Page</a></li><li><a href="http://trac.assembla.com/gerundo/wiki/TitleIndex">Index</a></li><li class="last"><a href="http://trac.assembla.com/gerundo/wiki/template?action=history">History</a></li>
+          </ul>
+        <hr>
+      </div>
+    <div id="content" class="wiki">
+      <div class="wikipage searchable">
+        
+          
+          <div class="trac-modifiedby">
+            <span><a href="http://trac.assembla.com/gerundo/wiki/template?action=diff&version=2" title="Version 2 by whitenoise">Last modified</a> <a class="timeline" href="http://trac.assembla.com/gerundo/timeline?from=2008-04-27T18%3A03%3A50Z&precision=second" title="2008-04-27T18:03:50Z in Timeline">5 years</a> ago</span>
+            <span class="trac-print">Last modified on 04/27/08 18:03:50</span>
+          </div>
+          <div id="wikipage"><h1 id="Howtowriteatemplate">How to write a template<a class="anchor" href="http://trac.assembla.com/gerundo/wiki/template#Howtowriteatemplate" title="Link to this section"> ¶</a></h1>
+<p>
+Template exchanging is a wonderful feature of gerundo. At this moment, templates are fixed and simple.
+You can write your own and apply to your pages.
+</p>
+<h2 id="Templatestructure">Template structure<a class="anchor" href="http://trac.assembla.com/gerundo/wiki/template#Templatestructure" title="Link to this section"> ¶</a></h2>
+<p>
+Template is divided into three pages: homepage, category page and software page. The first one, is the starting page when you browse, category page is a list of software under a certain category and software page is single description page for specific software (es firefox page contain information about what is firefox, documentation url and so on)
+Each page has three main parts: header, content and footer
+</p>
+</div>
+        
+        
+      </div>
+      
+
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="http://trac.assembla.com/gerundo/wiki/template?format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en">
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="./template – gerundo_files/trac_logo_mini.png" height="30" width="107" alt="Trac Powered"></a>
+      <p class="left">
+        Powered by <a href="http://trac.assembla.com/gerundo/about"><strong>Trac 0.12.3</strong></a><br>
+        By <a href="http://www.edgewall.org/">Edgewall Software</a><br>
+	Hosted by <a href="http://www.assembla.com/">Assembla</a>
+      </p>
+      <p class="right">Breakout - Social Software to Get Things Done<br><a title="Free SVN and Trac hosting" href="https://www.assembla.com/">https://www.assembla.com</a></p>
+    </div>
+    <div id="sitefooter">
+    </div>
+  
+</body></html>
