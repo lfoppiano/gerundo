@@ -1,0 +1,25 @@
+--- !Speck
+name: Firefox
+version: 2.0.0.14
+label: firefox-2.0.0.14
+url: http://pv-mirror01.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/win32/it/Firefox%20Setup%202.0.0.14.exe
+description: >
+    Browser gratuito e open-source per Windows, Linux e MacOS X. 
+    E' leggero, veloce, facile da usare e offre numerosi vantaggi 
+    rispetto agli altri browser, come la navigazione per schede e 
+    la possibilità di bloccare le finestre pop-up.
+category: internet
+dependency:
+    -
+suggestion:
+    - colorfultab
+    - adblock
+    - tabbrowserpreferences
+    - sessionmanager
+documentation:
+    - http://www.mozilla.com/documentation
+    - https://addons.mozilla.org/?app=firefox
+    - http://www.mozillaitalia.it/firefox/faq.html
+    - http://www.mozilla.org/support/firefox/
+    - http://opensourcearticles.com/introduction_to_firefox
+...

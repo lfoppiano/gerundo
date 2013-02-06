@@ -1,0 +1,17 @@
+--- !Speck
+name: Scribus
+version: 1.3.3.11
+label: scribus-1.3.3.11 
+url: http://kent.dl.sourceforge.net/sourceforge/scribus/scribus-1.3.3.11-1-win32-install.exe
+description: >
+    Scribus è un potente applicativo per la publicazione, molto simile al Publisher
+    di microsoft.
+category: office
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://docs.scribus.net/
+    - http://wiki.scribus.net/index.php/Main_Page
+...

@@ -1,0 +1,17 @@
+--- !Speck
+name: Gimp
+version: 2.4.3
+label: gimp-2.4.3 #(name)-(version) used to perform dependency resolution
+url: http://downloads.sourceforge.net/gimp-win/gimp-2.4.4-i686-setup.exe
+description: >
+    GIMP è il sofware di fotoritocco della GNOME Foundation. È bello, 
+    figo, stabile, piace alle ragazze e ciò rende i giovani uomini 
+    che lo usano più appetibili.
+category: graphics
+dependency:
+    - gtk-2.14
+suggestion:
+    -
+documentation:
+    - http://docs.gimp.org
+...

@@ -1,0 +1,16 @@
+--- !Speck
+name: Celestia
+version: 1.5.1
+label: celestia-1.5.1
+url: http://heanet.dl.sourceforge.net/sourceforge/celestia/celestia-win32-1.5.1.exe
+description: >
+    Planetario tridimensionale, per esplorare il sistema solare e la galassia. Molto completo nelle immagine e nei dati scientifici sui vari astri. E' disponibile per Windows, Linux e per Mac.
+category: games
+dependency:
+    - 
+suggestion:
+    -
+documentation:
+    - http://www.shatters.net/celestia/documentation.html
+    - http://www.celestiamotherlode.net/
+...

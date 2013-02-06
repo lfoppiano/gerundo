@@ -1,0 +1,17 @@
+--- !Speck
+name: Audacity
+version: 1.2.6
+label: audacity-1.2.6
+url: http://audacity.sourceforge.net/latest/audacity-win/audacity-win-1.2.6.exe
+description: >
+    Editor di file audio. Permette la sovrapposizione di tracce, la codifica in vari formati, l'applicazione di numerosi filtri ed effetti, la normalizzazione e molto altro. E' disponibile per Windows e per Linux.
+category: multimedia
+dependency:
+    - 
+suggestion:
+    -
+documentation:
+    - http://audacity.sourceforge.net/help/documentation
+    - http://audacity.sourceforge.net/help/faq
+    - http://audacity.sourceforge.net/help/tutorials
+...

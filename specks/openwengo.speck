@@ -1,0 +1,18 @@
+--- !Speck
+name: Openwengo 
+version: 2.1.2
+label: openwengo-2.1.2
+url: http://download.wengo.com/wengophone/release/2007-08-24/WengoPhone-2.1.2.exe
+description: >
+    Openwengo è un client VOIP, sviluppato dalla Wengo, un'azienda di telefonia.
+    Openwengo è un prodotto opensource che supporta oltre alle chiamate anche
+    i più famosi protocolli di instant messaging (MSN, ICQ, ecc.)   
+category: internet
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://dev.openwengo.com/trac/openwengo/trac.cgi/wiki
+    - http://www.openwengo.org/index.php/codeCampFaq
+...

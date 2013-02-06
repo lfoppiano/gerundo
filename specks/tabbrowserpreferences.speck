@@ -1,0 +1,16 @@
+--- !Speck
+name: TabBrowser Preferences
+version: 1.3.1.1
+label: tabbrowserpreferences-1.3.1.1
+url: https://addons.mozilla.org/en-US/firefox/downloads/file/711/tabbrowser_preferences-1.3.1.1-fx.xpi
+description: >
+    Una volta installato questo plugin attiva i controlli avanzati 
+    per alcuni aspetti delle schede del browser.
+category: internet
+dependency:
+    - firefox-2.0.0.14
+suggestion:
+    - 
+documentation:
+    - https://addons.mozilla.org/en-US/firefox/addon/158
+...

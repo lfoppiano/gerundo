@@ -1,0 +1,17 @@
+--- !Speck
+name: Wesnoth
+version: 1.4.1
+label: wesnoth-1.4.1 
+url: http://surfnet.dl.sourceforge.net/sourceforge/wesnoth/wesnoth-1.4.1-windows.exe
+description: >
+    Battle for Wesnoth è ambientato in uno scenario fantasy, in cui i giocatori possono preparare le proprie armate scegliendo vari tipi di combattenti fra varie razze come elfi, nani o troll. È un gioco strategico a turni che usa campo di gioco formato da una griglia esagonale in cui si possono combattere campagne per i giocatori singoli e sfide multigiocatore.
+category: games
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://www.wesnoth.org/wiki/Support
+    - http://www.wesnoth.org/wiki/Play
+    - http://www.wesnoth.org/wiki/Create
+...

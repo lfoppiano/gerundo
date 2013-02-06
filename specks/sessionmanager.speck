@@ -1,0 +1,18 @@
+--- !Speck
+name: Session Manager
+version: 0.6.1.13
+label: sessionmanager-0.6.1.13
+url: https://addons.mozilla.org/en-US/firefox/downloads/file/24909/session_manager-0.6.1.13-fx.xpi
+description: >
+    Salva e ripristina lo stato di tutte le finestre, se le si vuole aprire automaticamente, 
+    ripristinare dopo un crash o per recuperare schede o finestre chiuse accidentalmente.
+    Se sei stressato dal perdere dati quando navighi, questa è l'estensione che ti 
+    tranquillizzerà...
+category: internet
+dependency:
+    - firefox-2.0.0.14
+suggestion:
+    - 
+documentation:
+    - https://addons.mozilla.org/en-US/firefox/addon/2324
+...

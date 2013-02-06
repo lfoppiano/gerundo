@@ -1,0 +1,15 @@
+--- !Speck
+name: ClamWin
+version: 0.93
+label: clamwin-0.93
+url: http://dfn.dl.sourceforge.net/sourceforge/clamwin/clamwin-0.93-setup.exe
+description: >
+     Antivirus per Windows che fornisce un'interfaccia grafica al motore Clam AV. Si aggiorna automaticamente via internet ed è adatto anche ai computer più datati in quanto molto leggero.
+category: utility
+dependency:
+    - 
+suggestion:
+    -
+documentation:
+    - http://it.clamwin.com/content/category/3/7/27/
+...

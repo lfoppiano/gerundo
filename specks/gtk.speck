@@ -1,0 +1,19 @@
+--- !Speck
+name: gtk
+version: 2.14
+label: gtk-2.14
+url: http://downloads.sourceforge.net/gimp-win/gtk%2B-2.10.13-setup.exe 
+description: >
+    Porting Windows delle librerie grafiche GTK, note in ambiente Linux. 
+    Sono state incluse in questo CD al fine di consentire il funzionamento 
+    di alcune delle applicazioni presenti. 
+category: libraries
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://www.gtk.org
+    - http://www.gtk.org/documentation.html
+    - http://www.gtk.org/faq/
+...

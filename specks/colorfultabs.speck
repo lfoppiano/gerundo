@@ -1,0 +1,16 @@
+--- !Speck
+name: Colorful Tab
+version: 2.0.10
+label: colorfultab-2.0.10
+url: https://addons.mozilla.org/en-US/firefox/downloads/file/27199/colorfultabs-2.0.11-fx.xpi
+description: >
+    Un plugin molto semplice che colora ogni tab in modo diverso rendendole
+    più facili da distinguere e dando un tocco di colore e vitalità al tuo browser.
+category: internet
+dependency:
+    - firefox-2.0.0.14
+suggestion:
+    - 
+documentation:
+    - 
+...

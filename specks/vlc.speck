@@ -1,0 +1,16 @@
+--- !Speck
+name: VLC
+version: 0.8.6
+label: vlc-0.8.6
+url: http://downloads.videolan.org/pub/videolan/vlc/0.8.6f/win32/vlc-0.8.6f-win32.exe
+description: >
+    Riproduttore di audio/video dalle grandi potenzialità: esegue un grandissimo numero di formati video senza bisogno di codec esterni. Particolarmente indicato per l'esecuzione di files rovinati o incompleti.
+category: multimedia
+dependency:
+    - 
+suggestion:
+    -
+documentation:
+    - http://www.videolan.org/doc/
+    - http://wiki.videolan.org/index.php/Main_Page
+...

@@ -1,0 +1,20 @@
+--- !Speck
+name: Openoffice
+version: 2.4.0
+label: openoffice-2.4.0
+url: http://ftp.spnet.net/openoffice/localized/it/2.4.0/OOo_2.4.0_Win32Intel_install_wJRE_it.exe
+description: >
+    Suite completa per l'ufficio: include un wordprocessor, un foglio di calcolo, 
+    un programma per le presentazioni, un editor html, un database ed un semplice 
+    editor vettoriale per diagrammi. Supporta l'installazione di plugin.
+category: office
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://www.openoffice.org
+    - http://www.openoffice.org/documentation
+    - http://www.learnopenoffice.org/tutorials.htm
+    - http://www.openoffice.org/faq.html
+...

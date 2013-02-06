@@ -1,0 +1,15 @@
+--- !Speck
+name: Infrarecorder
+version: 0.45
+label: infrarecorder-0.45
+url: http://surfnet.dl.sourceforge.net/sourceforge/infrarecorder/ir045_unicode.exe
+description: >
+    Software di masterizzazione leggero e completo che supporta la simulazione di scrittura, il controllo di coerenza, e l'overburning.
+category: multimedia
+dependency:
+    - 
+suggestion:
+    -
+documentation:
+    - http://infrarecorder.sourceforge.net/translations/
+...

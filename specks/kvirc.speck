@@ -1,0 +1,18 @@
+--- !Speck
+name: Kvirc
+version: 3.4.0
+label: kvirc-3.4.0 
+url: ftp://ftp.kvirc.net/pub/kvirc/3.4.0/binary/win32/KVIrc-3.4.0.exe
+description: >
+    KVIrc è un client IRC libero e portabile basato sull'eccellente Qt GUI toolkit. 
+    KVIrc è scritto da Szymon Stefanek e dal Team di Sviluppo di KVIrc col contributo 
+    di molti sviluppatori in tutto il mondo.
+category: internet
+dependency:
+    - 
+suggestion:
+    - 
+documentation:
+    - http://www.kvirc.net/?id=faq&lang=it
+    - http://www.kvirc.de/docu/
+...

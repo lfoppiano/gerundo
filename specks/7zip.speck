@@ -1,0 +1,15 @@
+--- !Speck
+name: 7zip
+version: 4.57
+label: 7zip-4.57
+url: http://downloads.sourceforge.net/sevenzip/7z457.exe
+description: >
+    Utility per la compressione/decompressione di vari formati compressi, tra cui il comune ZIP. Supporta inoltre l'integrazione con la shell di explorer e dispone di un proprio file manager per la consultazione dei file compressi
+category: utility
+dependency:
+    - 
+suggestion:
+    -
+documentation:
+    - http://www.7-zip.org/it/faq.html
+...

@@ -1,0 +1,15 @@
+--- !Speck
+name: Inkscape
+version: 0.46
+label: inkscape-o.46 #(name)-(version) used to perform dependency resolution
+url: http://downloads.sourceforge.net/gimp-win/gimp-2.4.4-i686-setup.exe
+description: >
+     Inkscape è un programma di grafica vettoriale.
+category: graphics
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    -
+...

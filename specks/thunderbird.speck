@@ -1,0 +1,19 @@
+--- !Speck
+name: Thunderbird
+version: 2.0.0.14
+label: thunderbird-2.0.0.14
+url: http://www.gtlib.gatech.edu/pub/mozilla.org/thunderbird/releases/2.0.0.14/win32/it/Thunderbird%20Setup%202.0.0.14.exe
+description: >
+    Mozilla Thunderbird è un client di posta e news reader gratuito, open-source e 
+    multi-piattaforma per i principali sistemi operativi correnti tra cui, ma non solo, 
+    Windows, Linux e Macintosh. Offre vari vantaggi rispetto agli altri client di posta, 
+    tra cui la classificazione dello spam.
+category: internet
+dependency:
+    - 
+suggestion:
+    -
+documentation:
+    - http://www.mozilla.org/support/thunderbird/
+    - http://www.mozillaitalia.it/thunderbird/
+...

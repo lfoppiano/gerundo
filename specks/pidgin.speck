@@ -1,0 +1,19 @@
+--- !Speck
+name: Pidgin
+version: 2.4.1
+label: pidgin-2.4.1 
+url: http://downloads.sourceforge.net/pidgin/pidgin-2.4.1.exe
+description: >
+    Client per i protocolli Istant Messaging (IM), è disponibile per Windows 
+    e Linux. Supporta molti protocolli tra cui il diffuso MSN, nonchè ICQ, 
+    Jabber e molti altri. Integrabile con vari plugins per espandere le funzioni.
+category: internet
+dependency:
+     -
+suggestion:
+     - guification
+     - offtherecord
+documentation:
+     - www.pidgin.im
+     - http://developer.pidgin.im/wiki/Using%20Pidgin
+...

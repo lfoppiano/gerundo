@@ -1,0 +1,18 @@
+--- !Speck
+name: MusikCube
+version: 2.2
+label: musikcube-2.2 
+url: http://www.musikcube.com/action/download/mcube_winbuild_stable
+description: >
+    Player musicale avanzato. Permette di generare playlist dinamiche, 
+    supporta molteplici formati audio, e ha un sistema agile per la 
+    gestione dei dispositivi rimovibili (lettori mp3 usb).
+category: multimedia
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://www.musikcube.com/
+    - http://www.musikcube.com/wiki/Main_Page
+...

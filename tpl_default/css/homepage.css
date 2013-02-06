@@ -1,0 +1,123 @@
+body {
+    width: 1000px;
+    margin: auto;
+    padding: 0px;
+    background-color:#bbbbbb;
+}
+
+#header {
+    font: bold 40pt "Bistream Vera Sans" Arial Verdana Tahoma sans "Sans serif";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#container{
+    /*min-height: 800px;*/
+    /*margin: auto;*/
+    /*clear: both;*/
+    /*border: 1px solid black;*/
+
+}
+
+#content{
+	border: 1px solid black;
+	width:80%;
+	margin:auto;
+}
+
+
+#left {
+	float: left;
+        width: 60px;
+	/*width: 235px;*/
+}
+
+
+#footer {
+    font: 10pt "Bistream Vera Sans" Arial Verdana Tahoma sans "Sans serif";
+    text-align: left;
+    padding: 8px;
+}
+
+#title {
+    font: bold 40pt "Bistream Vera Sans" Arial Verdana Tahoma sans "Sans serif";
+    text-align: center;
+}
+
+/*
+ *   div 
+ */
+#box #top{
+    height:52px;
+    border: 1px solid black;
+/*    background: url("../images/top.png") repeat-x top left;*/
+}
+
+#box #top #left{
+    height:inherit;
+    background: url("../images/top-left.png") no-repeat center left;
+}
+
+#box #top #right{
+    height:inherit;
+    background: url("../images/top-right.png") no-repeat top right;
+}
+
+#box #cnt{
+    background: url("../images/left.png") repeat-y top left;
+    /*background-color: #7fa0c1;*/
+    background-color: #446795;
+}
+
+#box #cnt #wrap{
+    padding: 0px 0px 60px 60px;
+    background: url("../images/right.png") repeat-y top right;
+}
+
+#box #bottom{
+    height: 39px;
+    background: url("../images/bottom.png") repeat-x bottom left;
+}
+
+#box #bottom #left{
+    height:inherit;
+    background: url("../images/bottom-left.png") no-repeat bottom left;
+}
+
+#box #bottom #right{
+    height:inherit;
+    background: url("../images/bottom-right.png") no-repeat bottom right;
+}
+
+/* Table category content */
+
+#category_table{
+	width: 90%;
+	border: 1px solid black;
+}
+#category_table td{
+	width: 50%;
+	height:100px;
+	text-align:center;
+}
+#category_table td img{
+	margin: auto;
+	height: 100px;
+	border: 0px solid black;
+}
+
+/* Table package content */
+#packages_table{
+	width: 90%;
+	border: 1px solid black;
+}
+#packages_table td{
+	width: 50%;
+	height:100px;
+}
+#packages_table td img{
+	height: 100px;
+	border: 0px solid black;
+}
+
+

@@ -1,0 +1,15 @@
+--- !Speck
+name: Sage
+version: 1.3.10
+label: sage-1.3.10
+url: https://addons.mozilla.org/en-US/firefox/downloads/file/27199/colorfultabs-2.0.11-fx.xpi
+description: >
+    Sage è un estensione che permette l'aggregazione di feed RSS and Atom.
+category: internet
+dependency:
+    - firefox-2.0.0.14
+suggestion:
+    - https://addons.mozilla.org/en-US/firefox/downloads/file/378/sage-1.3.10-fx.xpi
+documentation:
+    - 
+...

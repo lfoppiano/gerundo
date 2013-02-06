@@ -1,0 +1,19 @@
+--- !Speck
+name: Tremulous
+version: 1.1.0
+label: tremulous-1.1.0
+url: http://prdownloads.sourceforge.net/tremulous/tremulous-1.1.0-installer.exe?download
+description: >
+    Tremulous e' un gioco open-source che unisce gli elementi di un FPS a quelli di un RTS. I giocatori possono scegliere tra due razze, alieni o umani. I giocatori di entrambe le squadre possono costruire strutture funzionali, durante il gioco, proprio come nei giochi RTS. Queste strutture possono avere svariate funzioni, la piu' importante delle quali e' lo spawn
+category: games
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://www.tremulous.net/documentation
+    - http://www.capponcino.it/tremulous/dl/tremmanual.pdf
+    - http://www.tremulous.net/phpBB2
+    - http://tremmapping.pbwiki.com/
+    - http://tremulous.net/manual/
+...

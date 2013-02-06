@@ -1,0 +1,17 @@
+--- !Speck
+name: Filezilla 
+version: 3.0.9.3
+label: filezilla-3.0.9.3 
+url: http://garr.dl.sourceforge.net/sourceforge/filezilla/FileZilla_3.0.9.3_win32-setup.exe
+description: >
+    FileZilla è un potente programma FTP-client progettato per un facile 
+    uso e per supportare più funzionalità possibili oltre ad essere veloce ed affidabile.
+category: internet
+dependency:
+    -
+suggestion:
+    -
+documentation:
+    - http://filezilla-project.org/docs_development.php
+    - http://wiki.filezilla-project.org/Main_Page
+...

@@ -1,0 +1,16 @@
+--- !Speck
+name: Adblock
+version: 0.7.5.3
+label: adblock-0.7.5.3
+url: https://addons.mozilla.org/en-US/firefox/downloads/file/26635/adblock_plus-0.7.5.4-fx+tb+sm.xpi
+description: >
+    Una volta installato, si possono facilmente filtrare gli elementi delle pagine 
+    in base al loro indirizzo web.
+category: internet
+dependency:
+    - firefox-2.0.0.14
+suggestion:
+    - 
+documentation:
+    - https://addons.mozilla.org/en-US/firefox/addon/4042
+...
