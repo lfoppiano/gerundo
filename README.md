@@ -1,8 +1,7 @@
 Welcome to Gerundo project (the almighty dragon) 
 =======
 
-
-= Input Formats =
+Input Formats 
 
 == Esempio XML ==
 {{{
@@ -49,3 +48,34 @@ suggestion:
 documentation:
     - http://somewhere.com/somewhat/wtf.pdf
 }}}
+= Project's tasks =
+
+ 1. XML --> oggetto e oggetto --> XML
+ 2. Oggetto --> [wiki:treeDir albero directory]
+ 3. Oggetto --> CSS+XHTML
+ 4. Frontend grafico= How to write a template =
+
+Template exchanging is a wonderful feature of gerundo. At this moment, templates are fixed and simple.
+You can write your own and apply to your pages.
+
+== Template structure ==
+Template is divided into three pages: homepage, category page and software page. The first one, is the starting page when you browse, category page is a list of software under a certain category and software page is single description page for specific software (es firefox page contain information about what is firefox, documentation url and so on)
+Each page has three main parts: header, content and footer
+
+This is a proposal for directory layout:
+
+
+ * software
+  - *.exe|*.zip|*.xpi
+ * kmeleon
+ * web
+  * css
+   - *.css
+  * images
+   - *.png|*.jpg
+  * *.html
+ * autorun.inf
+ * tarantasio.ico
+ * start.ini
+ * start.exe
+
